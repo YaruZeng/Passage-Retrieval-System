@@ -39,13 +39,13 @@ b) Zipf's law plots are automatically saved. From the plot, I find the normalise
 
  
 <div align=center>
-![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_plot.png)
+<img src = "https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_plot.png" />
   
 Figure 2: Term frequency ranking compared to Zipf's curve
 </div>
  
 <div align=center>
-![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_loglog.png)
+<img src = "https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_loglog.png" />
  
 Figure 3: Term frequency ranking compared to Zipf's curve(log)
 </div>
