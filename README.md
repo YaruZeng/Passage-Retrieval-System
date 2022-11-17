@@ -17,6 +17,7 @@ A collection of passages, one per row.
 ### 3. candidate-passages-top1000.tsv
 A tab separated file with an initial selection of at most 1000 passages for each of the queries in test-queries.tsv. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from that file.
 
+![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Image%20in%20README/sample%20rows.png)
 <Figure 1: Sample rows from the candidate-passages-top1000.tsv file.>
 
 
@@ -34,8 +35,10 @@ I define two function to get tokens by cleaning and steming texts and generate Z
 a) The total number of 036 identified words is 107538.
 b) Zipf's law plots are automatically saved. From the plot, I find the normalised frequency of a term is descending as its ranking increases with a shape similiar to the theoretical curve, which justifies that terms in the text set follow Zipf’s law qualitatively. Though the tendency of the empirical distribution is similar to the theoretical curve, some noices are still obvious on the log-log plot below, especially at large ranking values. The reason for the differences might be that the denominator becomes increasingly large while the ranking k and the sum of i increments but the numerator is constant (equal to 1). That leads to increasingly lower f. Besides, the limited size of the data set is also an element leading to noises on the curve.
 
+ ![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_plot.png)
 <Figure 2: Term frequency ranking compared to Zipf's curve>
 
+ ![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Output/Zipf'sLaw_loglog.png)
 <Figure 3: Term frequency ranking compared to Zipf's curve (log)>
 
 c) The identified words and their frequencies are saved in 'passage_collection_stat.csv'.
