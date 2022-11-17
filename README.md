@@ -64,8 +64,8 @@ ALso, I build the BM25 model and compute the scores.
 Finally, I retrieve 100 mostly relavant relavant passages to every query based on the two models and saved the results respectively in two files.
 
 #### 3) Outcomes: 
-a) The cosine similarity scores between queries and 100 retrieved passages are stored in 'tfidf.csv'.
-b) The BM25 scores between queries and 100 retrieved passages are stored in 'bm25.csv'.
+a) The cosine similarity scores between queries and 100 retrieved passages are stored in 'tfidf.csv' in the structure of <qid, pid, score>.
+b) The BM25 scores between queries and 100 retrieved passages are stored in 'bm25.csv' in the structure of <qid, pid, score>.
 
 ### 4. task4.py
 
@@ -76,4 +76,4 @@ To retrieve 100 mostly relavant passages to every query by building query likeli
 I build query likelihood language models with Laplace smoothing, Lidstone correction, and Dirichlet smoothing, based on which I retrieve 100 mostly relavant passages to every query.
 
 #### 3) Outcomes: 
-The retrieval results based on query likelihood language models with Laplace smoothing, Lidstone correction, and Dirichlet smoothing are stored respectively in 'laplace.csv', 'lidstone.csv', 'dirichlet.csv'.
+The retrieval results based on query likelihood language models with Laplace smoothing, Lidstone correction, and Dirichlet smoothing are stored respectively in 'laplace.csv', 'lidstone.csv', 'dirichlet.csv' in the structure of <qid, pid, score>.
