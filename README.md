@@ -18,7 +18,7 @@ A collection of passages, one per row.
 A tab separated file with an initial selection of at most 1000 passages for each of the queries in test-queries.tsv. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from that file.
 
 <div align=center>
-![image](https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Image%20in%20README/sample%20rows.png)
+<img src = "https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Image%20in%20README/sample%20rows.png" />
   
 Figure 1: Sample rows from the candidate-passages-top1000.tsv file.
 </div>
