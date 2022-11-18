@@ -8,13 +8,13 @@ Techniques of information retrieval are applied widely on searching engines, que
 The language of development in the project is Python 3.9.7. Due to the large volume of the dataset, the solution is written seperately in four '.py' files. The total runtime of four '.py' files is around 10 minutes on the First Generation Macbook Pro M1 (8-core CPU, 16GB RAM).
 
 ## Data sources
-### 1. test-queries.tsv
+### 1. test-queries.tsv (200 rows)
 A tab separated file, where each row contains a test query identifier (qid) and the actual query text.
 
-### 2. passage-collection.txt
+### 2. passage-collection.txt (182,469 rows)
 A collection of passages, one per row.
 
-### 3. candidate-passages-top1000.tsv
+### 3. candidate-passages-top1000.tsv (189,877 rows)
 A tab separated file with an initial selection of at most 1000 passages for each of the queries in 'test-queries.tsv'. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from the file.
 
 <div align=center>
