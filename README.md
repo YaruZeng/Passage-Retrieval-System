@@ -31,7 +31,7 @@ Figure 1: Sample rows from the 'candidate-passages-top1000.tsv' file.
 To preprocess raw text data, get tokens, and qualitatively justify the dataset follows Zipf's law.
 
 #### 2) Solutions: 
-I define two function to get tokens by cleaning and steming texts and plot every token's normalised frequency against frequency ranking based on Zipf's law.
+I define two function to get tokens by cleaning and steming texts based on NLTK library and plot every token's normalised frequency against frequency ranking based on Zipf's law by matplotlib.
 
 #### 3) Outcomes: 
 a) The total number of identified words is 107538.
