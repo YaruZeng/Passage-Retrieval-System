@@ -34,6 +34,7 @@ I define two functions to get tokens by cleaning and steming texts based on NLTK
 
 #### 3) Outcomes: 
 a) The total number of identified words is 107538.
+
 b) Zipf's law plots are automatically saved. From the plot below, I find the normalised frequency of a term is descending as its ranking increases with a shape similiar to the theoretical curve, which justifies that terms in the text set follow Zipf’s law qualitatively. 
  
 <div align=center>
@@ -51,7 +52,7 @@ c) The identified words and their frequencies are saved in 'passage_collection_s
 To get inverted index of every word in every passage for further retrieval.
 
 #### 2) Solutions: 
-To get an inverted index, I first use the function constructed in task1 to extract terms in the passages. Then, I use the structure of ’word: passage: word frequency in the passage’ to store the inverted index.
+To get an inverted index, I first use the function constructed in task1 to extract terms in the passages. Then, I use a dictionary in the structure of ’word: passage: word frequency in the passage’ to store the inverted index.
 
 #### 3) Outcomes: 
 Generated inverted indices are saved in 'inverted_index.txt'.
