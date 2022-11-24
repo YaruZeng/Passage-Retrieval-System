@@ -14,7 +14,7 @@ A tab separated file, where each row contains a test query identifier (qid) and 
 A collection of passages, one per row.
 
 ### 3. candidate-passages-top1000.tsv (189,877 rows)
-A tab separated file with an initial selection of at most 1000 passages for each of the queries in 'test-queries.tsv'. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from the file.
+A tab separated file with an initial selection of at most 1000 passages for each of the queries in 'test-queries.tsv'. The format of this file is 'qid pid query passage', where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from the file.
 
 <div align=center>
 <img src = "https://github.com/IvyZayn/Passage-Retrieval-System/blob/main/Image%20in%20README/sample%20rows.png" />
