@@ -1,5 +1,4 @@
 # Passage-Retrieval-System
-The repository shows a project I finished in the course 'COMP0084 Information Retrieval and Data Mining' at UCL. 
 
 ## Project Introduction 
 
