@@ -63,11 +63,16 @@ Generated inverted indices are saved in 'inverted_index.txt'.
 To retrieve 100 mostly relavant passages to every query by building retrieval models including Cosine Similarity and BM25. 
 
 #### 2) Solutions: 
-To build Cosine Similarity model, I compute TF-IDF vectors for passages and queries, based on which I compute Cosine Similarity scores between every query and passage. Also, I build the BM25 model and compute the scores. Finally, I retrieve 100 mostly relavant passages to every query based on the two models and saved the results respectively in two files.
+a) To build Cosine Similarity model, I compute TF-IDF vectors for passages and queries, based on which I compute Cosine Similarity scores between every query and passage. 
+
+b) Also, I build the BM25 model and compute the scores. 
+
+c) Finally, I retrieve 100 mostly relavant passages to every query based on the two models and saved the results respectively in two files.
 
 #### 3) Outcomes: 
-a) The Cosine Similarity scores between queries and 100 retrieved passages are stored in 'tfidf.csv' in the structure of <qid, pid, score>.
-b) The BM25 scores between queries and 100 retrieved passages are stored in 'bm25.csv' in the structure of <qid, pid, score>.
+a) The Cosine Similarity scores between queries and 100 retrieved passages are stored in 'tfidf.csv' in the structure of 'qid, pid, score'.
+
+b) The BM25 scores between queries and 100 retrieved passages are stored in 'bm25.csv' in the same structure.
 
 ### 4. task4.py
 
